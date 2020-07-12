@@ -18,6 +18,7 @@
   "homepage": "https://github.com/kaichengyan/kaichengyan#readme",
   "dependencies": {
     "@tryghost/content-api": "^1.4.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "moment": "^2.27.0"
   }
 }

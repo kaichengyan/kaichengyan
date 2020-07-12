@@ -1,5 +1,6 @@
 const fs = require('fs');
-const GhostContentAPI = require('@tryghost/content-api')
+const GhostContentAPI = require('@tryghost/content-api');
+const moment = require('moment');
 
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
@@ -12,14 +13,16 @@ const api = new GhostContentAPI({
 })
 
 api.posts
-    .browse({ limit: 5, include: 'title,url' })
+    .browse({ limit: 5, include: 'title,url,created_at' })
     .then((posts) => {
-      const listItems = posts.map((post) => `* [${post.title}](${post.url})\n`)
+      const listItems = posts.map((post) => {
+        const dateStr = moment(post.created_at).format('LL')
+        return `* [${post.title}](${post.url}) (${dateStr})\n`
+      })
       const listMd = ''.concat(...listItems)
-      const base = fs.readFileSync('README_BASE.md')
-      fs.writeFileSync('README.md', base + '\n')
-      fs.appendFileSync('README.md', '### My recent blog posts\n\n')
-      fs.appendFileSync('README.md', listMd)
+      const base = fs.readFileSync('README_BASE.md').toString()
+      fs.writeFileSync('README.md',
+          base + '\n### My recent blog posts\n\n' + listMd)
     })
     .catch((err) => {
       console.error(err)
