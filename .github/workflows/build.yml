@@ -16,3 +16,19 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    - name: Install dependencies
+      run: npm install
+    - name: Update README.md
+      env:
+        GHOST_URL: ${{ secrets.GHOST_URL }}
+        GHOST_CONTENT_KEY: ${{ secrets.GHOST_CONTENT_KEY }}
+      run: |-
+        node index.js
+        cat README.md
+    - name: Commit and push if README.md changed
+      run: |-
+        git diff
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "README-bot"
+        git diff --quiet || (git add README.md && git commit -m "Updated README")
+        git push
