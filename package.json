@@ -1,0 +1,23 @@
+{
+  "name": "kaichengyan",
+  "version": "1.0.0",
+  "description": "Github profile of @kaichengyan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaichengyan/kaichengyan.git"
+  },
+  "author": "Kyle Yan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaichengyan/kaichengyan/issues"
+  },
+  "homepage": "https://github.com/kaichengyan/kaichengyan#readme",
+  "dependencies": {
+    "@tryghost/content-api": "^1.4.1",
+    "dotenv": "^8.2.0"
+  }
+}

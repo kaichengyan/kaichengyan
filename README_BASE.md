@@ -5,11 +5,3 @@
 [![Twitch Status](https://img.shields.io/twitch/status/skywardpixel)](https://www.twitch.tv/skywardpixel)
 
 Also check out my website [Skyward](https://skyward.moe).
-
-### My recent blog posts
-
-* [重修 CSS（四）：盒模型之高度问题](https://skyward.moe/css-04-box-model-height/)
-* [重修 CSS（三）：盒模型之宽度问题](https://skyward.moe/css-03-box-model-width/)
-* [重修 CSS（二）：相对单位](https://skyward.moe/css-02-relative-units/)
-* [重修 CSS（一）：层叠、优先级和继承](https://skyward.moe/css-01-cascade-priority-inheritance/)
-* [Review: Formal verification of a realistic compiler](https://skyward.moe/review-compcert/)
