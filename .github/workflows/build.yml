@@ -22,9 +22,7 @@ jobs:
       env:
         GHOST_URL: ${{ secrets.GHOST_URL }}
         GHOST_CONTENT_KEY: ${{ secrets.GHOST_CONTENT_KEY }}
-      run: |-
-        node index.js
-        cat README.md
+      run: npm start
     - name: Commit and push if README.md changed
       run: |-
         git diff
