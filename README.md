@@ -5,8 +5,6 @@
 [![Keybase PGP](https://img.shields.io/keybase/pgp/kyleyan)](https://keybase.io/kyleyan)
 [![Twitch Status](https://img.shields.io/twitch/status/skywardpixel)](https://www.twitch.tv/skywardpixel)
 
-Also check out my website [Skyward](https://skyward.moe).
-
 ### My recent blog posts
 
 * [重修 CSS（四）：盒模型之高度问题](https://skyward.moe/css-04-box-model-height/) (June 28, 2020)
