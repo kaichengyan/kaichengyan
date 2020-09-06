@@ -5,6 +5,10 @@
 [![Keybase PGP](https://img.shields.io/keybase/pgp/kyleyan)](https://keybase.io/kyleyan)
 [![Twitch Status](https://img.shields.io/twitch/status/skywardpixel)](https://www.twitch.tv/skywardpixel)
 
+### Top Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaichengyan&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 ### My recent blog posts
 
 * [物理模拟：拉格朗日视角（一）](https://skyward.moe/pba-lagrangian-1/) (September 1, 2020)
