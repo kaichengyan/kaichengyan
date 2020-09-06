@@ -5,6 +5,7 @@
 [![Keybase PGP](https://img.shields.io/keybase/pgp/kyleyan)](https://keybase.io/kyleyan)
 [![Twitch Status](https://img.shields.io/twitch/status/skywardpixel)](https://www.twitch.tv/skywardpixel)
 
-### Top Languages
+### Stats
 
+![Kyle's github stats](https://github-readme-stats.vercel.app/api?username=kaichengyan&count_private=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaichengyan&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
