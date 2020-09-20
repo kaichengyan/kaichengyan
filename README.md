@@ -13,8 +13,8 @@
 
 ### My recent blog posts
 
+* [物理模拟：拉格朗日视角（二）](https://skyward.moe/pba-lagrangian-2/) (September 20, 2020)
 * [物理模拟：拉格朗日视角（一）](https://skyward.moe/pba-lagrangian-1/) (September 1, 2020)
 * [重修 CSS（四）：盒模型之高度问题](https://skyward.moe/css-04-box-model-height/) (June 28, 2020)
 * [重修 CSS（三）：盒模型之宽度问题](https://skyward.moe/css-03-box-model-width/) (June 28, 2020)
 * [重修 CSS（二）：相对单位](https://skyward.moe/css-02-relative-units/) (June 28, 2020)
-* [重修 CSS（一）：层叠、优先级和继承](https://skyward.moe/css-01-cascade-priority-inheritance/) (June 28, 2020)
